@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // You can set properties on your CrosshairView here if needed
-        // binding.crosshairView.crosshairShape = CrosshairView.Shape.PENIS
+        // Set the crosshair shape to PENIS as requested
+        binding.crosshairView.crosshairShape = CrosshairView.Shape.PENIS
     }
 }
